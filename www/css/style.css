@@ -1,0 +1,192 @@
+body {
+    min-width:600px!important;
+}
+
+button {
+    border-radius: 4px;
+}
+
+
+
+
+
+/* Video Feed Styling */
+/* #overlay { */
+/* Video Feed Styling:
+ * Include the !important keyword to override default styles applied by JS.
+ * webgazer.js sets defaults for: display, position, top, left, width, height
+ */
+/* } */
+#webgazerVideoContainer {
+    display: block !important; 
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 320px !important;
+    height: 240px !important;
+    z-index: 1;
+}
+
+/* Navbar styling */
+#webgazerNavbar {
+    left: 320px;
+    z-index: 0;
+    /* box-shadow: 0px 3px 5px #ddd; */
+    border:0px;
+    background-color: #fff;
+}
+
+
+/* Button styling */
+.button_snap {
+    top: 240px;
+    left: 0px;
+    position: fixed;
+}
+
+/* Timer position */
+.timer {
+    top: 270px;
+    left: 0;
+    position: fixed;
+}
+
+#Accuracy a{
+    background-color: #222;
+    color: #eee;
+    left: -15px;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+#Accuracy {
+    background-color: #222;
+    padding-left: inherit;
+}
+
+li {
+    padding-left: 50px;
+}
+.navbar-right li {
+    padding-right: 20px;
+}
+
+.helpBtn {
+    padding: 15px;
+    border: none;
+    background: none;
+    color: #777;
+}
+.helpBtn a {
+    background: none;
+    color: #777;
+}
+.helpBtn a:hover {
+    color: black!important;
+    text-decoration: none;
+}
+.modal-header {
+    border-bottom: none!important;
+}
+
+/* Calibration button styling */
+.Calibration{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: red;
+    opacity: 0.2;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    position:fixed;
+}
+
+/* Calibration point position */
+#Pt1{
+    top: 70px;
+    left:340px;
+}
+#Pt2{
+    top: 70px;
+    left:50vw;
+    margin-left: 340;
+}
+#Pt3{
+    top: 70px;
+    right:2vw;
+}
+#Pt4{
+    top:50vh;
+    left:2vw;
+}
+#Pt5{
+    top: 50vh;
+    left: 50vw;
+}
+#Pt6{
+    top: 50vh;
+    right:2vw;
+}
+#Pt7{
+    bottom:2vw;
+    left: 2vw;
+}
+#Pt8{
+    bottom:2vw;
+    left:50vw;
+}
+#Pt9{
+    bottom:2vw;
+    right:2vw;
+}
+
+
+/* 
+
+    #Pt1{
+        top: 2vw;
+        left:340px;
+    }
+    #Pt2{
+        top: 2vw;
+        left:57vw;
+        
+    }
+    #Pt3{
+        top: 2vw;
+        right:2vw;
+    }
+    #Pt4{
+        top:50vh;
+        left:340px;
+    }
+    #Pt5{
+        top: 50vh;
+        left: 57vw;
+        background-color: red;
+    }
+    #Pt6{
+        top: 50vh;
+        right:2vw;
+    } 
+    #Pt7{
+        bottom:2vw;
+        left: 340px;
+    }
+    #Pt8{
+        bottom:2vw;
+        left:57vw;
+    }
+    #Pt9{
+        bottom:2vw;
+        right:2vw;
+    } */
+
+
+.bg_responsive{
+    width: 100%;
+    height: auto;
+    float: right;
+}
